@@ -187,3 +187,40 @@ section{padding:72px 0}
 @media (min-width:768px){.mobile-cta{display:none}}
 .pack-tag{white-space:nowrap}
 @media (max-width:767px){.site-header .btn{display:none}}
+
+/* v2 additions */
+.btn-outline{background:transparent;color:var(--ink);border-color:var(--ink)}
+.btn-outline:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.dark .btn-outline{color:#fff;border-color:#fff}
+.dark .btn-outline:hover{background:#fff;color:var(--ink)}
+.hero .sub{font-size:clamp(1.25rem,2.4vw,1.5rem);font-weight:700;color:var(--ink);margin:-.1em 0 .7em}
+.proof{display:grid;gap:22px}
+@media (min-width:900px){.proof{grid-template-columns:repeat(3,1fr)}}
+.proof-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px;display:flex;flex-direction:column}
+.proof-stat{font-size:2.4rem;font-weight:800;line-height:1;color:var(--orange-text);margin-bottom:.15em;letter-spacing:-.02em}
+.proof-stat-label{font-weight:700;margin-bottom:1em}
+.proof-card blockquote{margin:0 0 1.2em;padding:0;font-size:1.02rem;flex:1}
+.proof-card blockquote p{margin:0}
+.proof-card figcaption{font-size:.92rem;color:var(--muted)}
+.proof-card figcaption strong{color:var(--ink);display:block}
+.us-tag{display:inline-block;margin-top:8px;font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;background:var(--cream);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:3px 9px}
+.proof-card .src{margin-top:12px;font-size:.92rem;font-weight:600}
+.terms{margin-top:28px;background:var(--cream);border-radius:var(--radius);padding:24px 26px}
+.terms h3{margin-bottom:.5em}
+.terms ul{margin:0;padding-left:1.2em}
+.terms li{margin:6px 0}
+.annual{font-size:.92rem;color:var(--muted);margin:-.2em 0 0}
+.calc-band{margin-top:48px;display:grid;gap:18px;align-items:center;background:var(--orange-strong);color:#fff;border-radius:18px;padding:30px}
+@media (min-width:860px){.calc-band{grid-template-columns:1fr auto;padding:36px 40px}}
+.calc-band h3{font-size:1.5rem;margin-bottom:.3em;color:#fff}
+.calc-band p{margin:0;color:#fff}
+.calc-band .btn{background:#fff;color:var(--ink);border-color:#fff}
+.calc-band .btn:hover{background:var(--cream);border-color:var(--cream)}
+.pilot-quote{margin:22px 0 0;padding:16px 18px;border-left:4px solid var(--yellow);background:var(--cream);border-radius:0 10px 10px 0;font-size:.98rem}
+.pilot-quote p{margin:0 0 6px}
+.pilot-quote footer{font-size:.88rem;color:var(--muted)}
+.proof-card{margin:0}
+.terms{background:#fff;border:1px solid var(--line)}
+@media (min-width:960px){.hero h1{font-size:3.1rem}}
+.hero .cta-row{gap:12px 14px}
+.hero .cta-row .btn-lg{padding:.95em 1.4em;font-size:1.08rem}
