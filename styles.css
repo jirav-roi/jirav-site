@@ -224,3 +224,4 @@ section{padding:72px 0}
 @media (min-width:960px){.hero h1{font-size:3.1rem}}
 .hero .cta-row{gap:12px 14px}
 .hero .cta-row .btn-lg{padding:.95em 1.4em;font-size:1.08rem}
+.kicker{display:inline-block;margin:0 0 .9em;font-size:clamp(1rem,1.8vw,1.15rem);font-weight:800;letter-spacing:.02em;color:var(--ink);background:var(--yellow);border-radius:999px;padding:.35em .95em}
